@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@keyframes slide {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+}
+
+.animate-slide {
+  animation: slide 3s ease-in-out infinite;
+}
